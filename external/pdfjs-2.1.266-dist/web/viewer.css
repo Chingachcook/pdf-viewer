@@ -24,10 +24,6 @@
   line-height: 1.0;
 }
 
-.toolbarViewerRight {
-  opacity: 0;
-}
-
 .textLayer > span {
   color: transparent;
   position: absolute;
@@ -960,6 +956,10 @@ html[dir='rtl'] #toolbarViewerRight > *,
 html[dir='rtl'] .findbar * {
   position: relative;
   float: right;
+}
+
+.toolbarViewerRight {
+  opacity: 0;
 }
 
 html[dir='ltr'] .splitToolbarButton {
