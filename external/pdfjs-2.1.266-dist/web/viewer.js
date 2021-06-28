@@ -5132,7 +5132,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'compressed.tracemonkey-pldi-09.pdf',
+    value: 'new.wave.book.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
@@ -12627,10 +12627,6 @@ function () {
     this.toggleButton = options.toggleButton;
     this.toolbarButtonContainer = options.toolbarButtonContainer;
     this.buttons = [{
-      element: options.presentationModeButton,
-      eventName: 'presentationmode',
-      close: true
-    }, {
       element: options.openFileButton,
       eventName: 'openfile',
       close: true
