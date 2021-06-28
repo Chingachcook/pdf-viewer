@@ -24,6 +24,10 @@
   line-height: 1.0;
 }
 
+.toolbarViewerRight {
+  opacity: 0;
+}
+
 .textLayer > span {
   color: transparent;
   position: absolute;
