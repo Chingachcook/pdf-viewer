@@ -12627,6 +12627,10 @@ function () {
     this.toggleButton = options.toggleButton;
     this.toolbarButtonContainer = options.toolbarButtonContainer;
     this.buttons = [{
+      element: options.presentationModeButton,
+      eventName: 'presentationmode',
+      close: true
+    }, {
       element: options.openFileButton,
       eventName: 'openfile',
       close: true
