@@ -958,7 +958,7 @@ html[dir='rtl'] .findbar * {
   float: right;
 }
 
-.toolbarViewerRight {
+#toolbarViewerRight, #viewFind {
   opacity: 0;
 }
 
