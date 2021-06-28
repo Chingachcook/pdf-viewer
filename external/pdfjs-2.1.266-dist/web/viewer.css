@@ -942,6 +942,7 @@ html[dir='rtl'] #toolbarViewerRight {
 html[dir='ltr'] #toolbarViewerRight,
 html[dir='rtl'] #toolbarViewerLeft {
   float: right;
+  opacity: 0;
 }
 html[dir='ltr'] #toolbarViewerLeft > *,
 html[dir='ltr'] #toolbarViewerMiddle > *,
@@ -956,10 +957,6 @@ html[dir='rtl'] #toolbarViewerRight > *,
 html[dir='rtl'] .findbar * {
   position: relative;
   float: right;
-}
-
-#toolbarViewerRight, #viewFind {
-  opacity: 0;
 }
 
 html[dir='ltr'] .splitToolbarButton {
@@ -1359,6 +1356,10 @@ html[dir="rtl"] #viewOutline.toolbarButton::before {
 
 #viewAttachments.toolbarButton::before {
   content: url(images/toolbarButton-viewAttachments.png);
+}
+
+#viewFind {
+  opacity: 0;
 }
 
 #viewFind.toolbarButton::before {
