@@ -942,7 +942,7 @@ html[dir='rtl'] #toolbarViewerRight {
 html[dir='ltr'] #toolbarViewerRight,
 html[dir='rtl'] #toolbarViewerLeft {
   float: right;
-  opacity: 0;
+  display: none;
 }
 html[dir='ltr'] #toolbarViewerLeft > *,
 html[dir='ltr'] #toolbarViewerMiddle > *,
@@ -1357,7 +1357,7 @@ html[dir="rtl"] #viewOutline.toolbarButton::before {
 }
 
 #viewFind {
-  opacity: 0;
+  display: none;
 }
 
 #viewFind.toolbarButton::before {
@@ -2374,9 +2374,6 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 }
 
 @media all and (max-width: 640px) {
-  .hiddenSmallView, .hiddenSmallView * {
-    display: none;
-  }
   .visibleSmallView {
     display: inherit;
   }
